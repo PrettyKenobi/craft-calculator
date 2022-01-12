@@ -1,0 +1,24 @@
+.mast {
+    display: grid;
+    border: 2px solid black; 
+}
+
+.foot {
+    display:grid;
+    border: 2px solid black;
+}
+/* for tablet mode view */
+ 
+@media screen and (max-width: 1275px) {
+    .footerContent {
+        width: 50%;
+    }
+}
+ 
+/* for mobile screen view */
+ 
+@media screen and (max-width: 660px) {
+    .footerContent {
+        width: 100%;
+    }
+}
