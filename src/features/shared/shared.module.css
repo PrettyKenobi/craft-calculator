@@ -1,24 +1,13 @@
 .mast {
-    display: grid;
-    border: 2px solid black; 
+    display: static;
+    border-bottom: 2px solid black; 
 }
 
+.mast>h1 {
+    padding-left: 5px;
+}
 .foot {
-    display:grid;
-    border: 2px solid black;
-}
-/* for tablet mode view */
- 
-@media screen and (max-width: 1275px) {
-    .footerContent {
-        width: 50%;
-    }
-}
- 
-/* for mobile screen view */
- 
-@media screen and (max-width: 660px) {
-    .footerContent {
-        width: 100%;
-    }
+    display: static;
+    border-top: 2px solid black;
+    top: 5px;
 }

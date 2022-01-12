@@ -1,14 +1,10 @@
 import React from "react";
-import styles from './shared.module.css';
+import styles from './shared.module.css'
 
-function Foot() {
+export default function Foot() {
     return (
-        <footer>
-            <div className={styles.footerContent}>
+        <footer className={styles.foot}>
             <p>Placeholder text</p>
-            </div>
         </footer>
-    )
+    );
 }
-
-export default Foot;

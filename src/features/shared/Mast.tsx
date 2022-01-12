@@ -1,12 +1,10 @@
 import React from "react";
+import styles from './shared.module.css'
 
-
-function Mast() {
+export default function Mast() {
     return (
-        <header>
+        <header className={styles.mast}>
             <h1>Craft Calculator</h1>
         </header>
     );
 }
-
-export default Mast;

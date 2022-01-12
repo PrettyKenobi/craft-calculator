@@ -1,17 +1,19 @@
 import React from 'react';
 import Mast from './Mast';
 import Foot from './Foot';
-import styles from './shared.module.css';
 
 export function PageLayout() {
     return (
-        <div className='pageLayout'>
-           <div className={styles.mast}>
+        <div>
+           <div>
                <Mast />
            </div>
-            <div className={styles.foot}>
+           <div>
+               <p>Middle bit</p>
+           </div>
+            <div>
                 <Foot />
             </div>
         </div>
-    )
+    );
 }
